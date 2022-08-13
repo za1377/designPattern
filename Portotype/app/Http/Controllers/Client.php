@@ -11,13 +11,11 @@ class Client extends Controller
         $clone = $original->clone();
 
         echo 'original';
-        var_dump('*');
-        echo '*****************';
+        var_dump('*****************');
         var_dump($original);
 
         echo 'clone';
-        var_dump('*');
-        echo '*****************';
+        var_dump('*****************');
         var_dump($clone);
 
         return;
